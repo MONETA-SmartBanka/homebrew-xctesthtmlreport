@@ -14,7 +14,9 @@ class Xctesthtmlreport < Formula
     system "swift", "build", "--disable-sandbox", "-c", "release"
     bin.install ".build/release/xchtmlreport"
     bin.install ".build/release/XCTestHTMLReport_XCTestHTMLReport.bundle"
+  end
+
+  def post_install
     system "ln -s #{bin}/XCTestHTMLReport_XCTestHTMLReport.bundle #{HOMEBREW_PREFIX}/bin/XCTestHTMLReport_XCTestHTMLReport.bundle"
   end
 end
-
