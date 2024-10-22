@@ -2,7 +2,7 @@ class Xctesthtmlreport < Formula
   desc "Xcode-like HTML report for Unit and UI Tests [MONETA]"
   homepage "https://github.com/MONETA-SmartBanka/XCTestHTMLReport"
   url "https://github.com/MONETA-SmartBanka/XCTestHTMLReport/archive/refs/tags/2.5.0.tar.gz"
-  sha256 "6249242b4fd6e008b450839b2cc053c3c0646a2650480e74238b5230db0a657c"
+  sha256 "4e04e4b9b600797d8a41dde27135e87e2ee8a78c3f69a1590aeb7e6c2562e1f7"
   license "MIT"
   head "https://github.com/MONETA-SmartBanka/XCTestHTMLReport.git", branch: "main"
 
